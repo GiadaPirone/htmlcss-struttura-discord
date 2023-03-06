@@ -1,0 +1,30 @@
+header{
+    max-height: 300px;
+    background-color:#ADD8E6 ;
+    display: flex;
+}
+
+.box{
+    background-color:#DAA520 ;
+    margin: 1em auto;  
+    display: flex; 
+}
+.uno{
+    min-width: 240px;
+    /* grandezza da togliere */
+    
+}
+
+.due{
+    min-width: 700px;
+    margin: auto;
+     /* grandezza da togliere */
+}
+
+.tre{
+    min-width: 240px;
+     /* grandezza da togliere */
+
+}
+
+
