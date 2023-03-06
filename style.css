@@ -92,3 +92,41 @@ header{
     margin: 1em auto;
     background-color: green;
  }
+
+ /* inizio footer */
+/* prima parte */
+ .boxBlack{
+    background-color: black;
+    
+    
+ }
+ 
+ .boxSalmon{
+    background-color: #F08080;
+    width: 30%; /*calc((100% /5) *1.5) */
+    min-height: 70%;
+ }
+
+ .boxYellow{
+    background-color: yellow;
+    width: 17.5%;
+    min-height: 70%;
+    border: black dashed 1px;
+ }
+
+ /* seconda parte */
+
+ .BoxFlexFooter{
+    background-color: #7FFFD4;
+    width: 50%;
+    min-height: 50px;
+    margin: 1px auto;
+    display: flex;
+    
+
+ }
+
+ .fine{
+    background-color: #FFB6C1;
+    
+ }
