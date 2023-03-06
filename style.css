@@ -84,3 +84,11 @@ header{
     flex-direction: row-reverse;
  }
 
+ /* blocco verde */
+
+ .conteinerGreen{
+    width: 50%;
+    min-height: 500px;
+    margin: 1em auto;
+    background-color: green;
+ }
