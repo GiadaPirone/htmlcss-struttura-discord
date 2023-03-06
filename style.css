@@ -17,6 +17,7 @@ header{
     display: flex;     
 }
 
+
 .logo{
     width: 20%;
 }
@@ -33,13 +34,14 @@ header{
     background-color: #00008B;
     height: 200px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
  .boxPink{
     background-color: #EE82EE;
     width: 50%;
     min-height: 80%; 
-    margin: 1em auto;
 }
 
 /* inizio main */
@@ -47,23 +49,24 @@ header{
 
 .boxMainWhite{
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .containerFlex {
-    width: 50%;
+    width: 1200px;
     min-height: 300px; 
-    margin: 1em auto;
-    display: flex;
-    /* justify-content: center; */
-    
+    margin: 1em;
+    display: flex;    
 }
 
 .boxPaleBlue{
     background-color: #1E90FF;
     width: 60%;
     min-height: 70%;
-
 }
+
 .boxSoftPink{
     background-color: #FFC0CB;
     width: 40%;
@@ -74,12 +77,15 @@ header{
 
  .boxMainGrey{
     background-color: #D3D3D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
 
  .containerReverse {
-    width: 50%;
+    width: 1200px;
     min-height: 300px; 
-    margin: 1em auto;
+    margin: 1em;
     display: flex;
     flex-direction: row-reverse;
  }
@@ -87,24 +93,26 @@ header{
  /* blocco verde */
 
  .conteinerGreen{
-    width: 50%;
+    width: 1200px;
     min-height: 500px;
-    margin: 1em auto;
+    margin: 1em;
     background-color: green;
  }
 
  /* inizio footer */
-/* prima parte */
+ /* prima parte */
  .boxBlack{
-    background-color: black;
-    
-    
+    background-color: black;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
  
  .boxSalmon{
     background-color: #F08080;
     width: 30%; /*calc((100% /5) *1.5) */
     min-height: 70%;
+
  }
 
  .boxYellow{
@@ -118,15 +126,17 @@ header{
 
  .BoxFlexFooter{
     background-color: #7FFFD4;
-    width: 50%;
+    width: 1200px;
     min-height: 50px;
-    margin: 1px auto;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     
 
  }
 
- .fine{
+ .button{
     background-color: #FFB6C1;
+    padding: 5px;
     
  }
