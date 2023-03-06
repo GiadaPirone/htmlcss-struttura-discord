@@ -1,30 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* inizio header */
 header{
     max-height: 300px;
-    background-color:#ADD8E6 ;
-    display: flex;
+    background-color:#ADD8E6 ;    
 }
 
 .box{
     background-color:#DAA520 ;
-    margin: 1em auto;  
-    display: flex; 
-}
-.uno{
-    min-width: 240px;
-    /* grandezza da togliere */
-    
+    margin: 1em auto; 
+    max-width: 1200px;
+    display: flex;     
 }
 
-.due{
-    min-width: 700px;
-    margin: auto;
-     /* grandezza da togliere */
+.logo{
+    width: 20%;
 }
 
-.tre{
-    min-width: 240px;
-     /* grandezza da togliere */
-
+.link{
+    width: 80%;
+    text-align: center;
 }
+.login{
+    width: 20%;
+}
+
+.boxBlu{
+    background-color: #00008B;
+    height: 200px;
+    display: flex;
+}
+
+ .boxPink{
+    background-color: #EE82EE;
+    width: 50%;
+    min-height: 80%; 
+    margin: 1em auto;
+}
+
+
 
 
